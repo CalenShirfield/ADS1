@@ -1,2 +1,2 @@
 # ADS1
- Algos and Data structures
+ Algos and Data structure implementations  
