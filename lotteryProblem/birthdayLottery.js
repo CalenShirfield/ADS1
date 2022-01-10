@@ -27,7 +27,9 @@ function genBirthdays(n) {
   return birthdays;
 }
 
-// search for unique birthdays in the array
+// search for unique birthdays in the array using linear search
+// outputs an array containing player number strings
+
 function find(birthdays) {
   var n = birthdays.length;
 }
@@ -80,25 +82,35 @@ function bubbleSortDays(array) {
 }
 
 // sort then search for unique birthdays
+// find a unique birthday and produce and array of player numbers
+// sort and then search
+
 function findSorted(birthdays) {}
 
 ///////////////////////////////////////////
+
+var birthdays = genBirthdays(1589);
+// console.log(bubbleSortDays(bubbleSort(birthdays)));
+console.log(bubbleSort(birthdays));
+
+// console.log(birthdays);
+
 //this creates an array for testing
 //in this array the only unique birthday is held by member "1"
-var birthdays = [
-  "0",
-  [22, 8],
-  "1",
-  [11, 4],
-  "2",
-  [16, 10],
-  "3",
-  [22, 8],
-  "4",
-  [16, 10],
-];
-console.log(find(birthdays));
-console.log(findSorted(birthdays));
+// var birthdays = [
+//   "0",
+//   [22, 8],
+//   "1",
+//   [11, 4],
+//   "2",
+//   [16, 10],
+//   "3",
+//   [22, 8],
+//   "4",
+//   [16, 10],
+// ];
+// console.log(find(birthdays));
+// console.log(findSorted(birthdays));
 //in both cases the array printed to the console should be ["1"]
 
 //if you are feeling confident you can uncomment the following lines of code to test a larger example
