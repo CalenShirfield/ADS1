@@ -30,7 +30,7 @@ class Stack {
       return false;
     }
   }
-  // show function lists elements vertically in order aa a string
+  // show function, lists elements vertically in order as a string
   show() {
     let list = "";
     for (let i = this.s.length - 1; i > -1; i--) {
